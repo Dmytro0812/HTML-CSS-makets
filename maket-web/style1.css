@@ -1,0 +1,52 @@
+html {
+  font-size: 16px;
+}
+
+.wrapper {
+  height: 400px;
+  width: 800px;
+  position: relative;
+  top: 5rem;
+  left: 50%;
+  /* background-color: #7c2323; */
+  border: 1px solid #7c2323;
+  margin-left: -400px;
+}
+
+.menu {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  background-color: #7c2323;
+}
+
+a.active{
+    background-color: white;
+    color: #7c2323;
+}
+
+.nav-item {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #7c2323;
+  font-family: DM Sans;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: #7c2323;
+}
+
+.blog {
+  color: #7c2323;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.p-link:hover{
+    color: aqua;    
+}

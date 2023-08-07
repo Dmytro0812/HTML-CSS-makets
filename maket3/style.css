@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: DM Sans;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(31, 128, 31);
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.3rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.about ol {
+  margin: 0;
+  padding: 0;
+}
+
+.about p {
+  margin: 0.5rem;
+  padding: 0;
+}
+
+.about h4 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.contacts {
+  padding: 1rem;
+  color: white;
+  width: 100%;
+  background: red;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.contacts span {
+  font-size: 1rem;
+}
+
+
+.footer{
+    width: 100%;
+    background: orange;
+    font-family: DM Sans;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    padding: 3rem;
+    margin: 2rem;
+}
